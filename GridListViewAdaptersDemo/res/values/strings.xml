@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grid ListView Adapters</string>
+    <string name="loading_with_dummy_wait">Loading with dummy wait...</string>
+    <string name="click_to_load_more_btn_text">Click to load more...</string>
+    <string name="clear_employee_table">Clean Employee table</string>
+    <string name="cleaning_employee_table_dialog_msg">Cleaning table please wait...</string>
+
+</resources>

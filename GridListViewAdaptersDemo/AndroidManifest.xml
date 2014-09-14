@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014-present Biraj Patel
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.birin.gridlistviewadaptersdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:name="com.birin.cursorgridadapter.datasetup.TestContentProvider"
+            android:authorities="com.birin.cursorgridadapter.datasetup.TestContentProvider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.birin.gridlistviewadaptersdemo.ParentDemoMenuList"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Parent menus -->
+        <activity
+            android:name="com.birin.gridlistviewadaptersdemo.JavaUtilListDataDemos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.birin.gridlistviewadaptersdemo.CursorDataDemos"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- ListGridAdapter Usage demos -->
+        <activity
+            android:name="com.birin.listgridadapter.demo1.SimplestListGridAdapterUsageDemoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.birin.listgridadapter.demo2.FixedListItems"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.birin.listgridadapter.demo3.CardClickHandlingFixedListItems"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.birin.listgridadapter.demo4.ChildAndCardClickHandlingFixedListItems"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.birin.listgridadapter.demo5.FixedListItemsRotationSupport" >
+        </activity>
+        <activity android:name="com.birin.listgridadapter.demo6.UnlimitedListItemsRotationSupportAutoLoadMore" >
+        </activity>
+        <activity android:name="com.birin.listgridadapter.demo7.UnlimitedListItemsRotationSupportAutoLoadMoreMax100Items" >
+        </activity>
+        <activity android:name="com.birin.listgridadapter.demo8.UnlimitedListItemsRotationSupportClickToLoadMore" >
+        </activity>
+
+        <!-- CursorGridAdapter Usage demos -->
+        <activity
+            android:name="com.birin.cursorgridadapter.demo1.FixedCursorItems"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.birin.cursorgridadapter.demo2.CardClickHandlingFixedCursorItems"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.birin.cursorgridadapter.demo3.ChildAndCardClickHandlingFixedCursorItems"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.birin.cursorgridadapter.demo4.FixedCursorItemsRotationSupport" >
+        </activity>
+        <activity android:name="com.birin.cursorgridadapter.demo5.UnlimitedCursorItemsRotationSupportAutoLoadMore" >
+        </activity>
+        <activity android:name="com.birin.cursorgridadapter.demo6.UnlimitedCursorItemsRotationClickToLoadMore" >
+        </activity>
+    </application>
+
+</manifest>
