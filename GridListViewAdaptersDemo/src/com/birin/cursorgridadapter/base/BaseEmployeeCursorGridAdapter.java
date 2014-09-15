@@ -79,7 +79,6 @@ public class BaseEmployeeCursorGridAdapter extends
 	private void setCardViews(CardDataHolder<Cursor> cardDataHolder,
 			EmployeeCardViewHolder cardViewHolder) {
 		Cursor data = cardDataHolder.getData();
-		System.out.println("biraj data == null " + data == null);
 		cardViewHolder.employeeName
 				.setText(data.getString(data
 						.getColumnIndexOrThrow(TestContentProviderSqlHelper.EMPLOYEE_NAME)));

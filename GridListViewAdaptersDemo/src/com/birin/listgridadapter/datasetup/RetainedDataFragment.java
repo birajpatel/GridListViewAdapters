@@ -88,7 +88,6 @@ public class RetainedDataFragment extends Fragment {
 
 	public void runAddDataTask() {
 		if (isTaskRunning() == false && canLoadMoreData()) {
-			System.out.println("biraj runAddDataTaskJob start");
 			if (null != mTask) {
 				mTask.cancel(true);
 				mTask = null;
@@ -116,7 +115,6 @@ public class RetainedDataFragment extends Fragment {
 
 		@Override
 		protected void onPreExecute() {
-			System.out.println("biraj onPreExecute");
 			isTaskRunning = true;
 			if (mCallbacks != null) {
 				mCallbacks.onDataGeneratorTaskExecuting();
@@ -129,19 +127,16 @@ public class RetainedDataFragment extends Fragment {
 		 */
 		@Override
 		protected ArrayList<Employee> doInBackground(Void... ignore) {
-			System.out.println("biraj doInBackground - wait start");
 			try {
 				Thread.sleep(1500);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println("biraj doInBackground - wait end");
 			return generateNewDummyDataAndAddToList();
 		}
 
 		@Override
 		protected void onCancelled() {
-			System.out.println("biraj onCancelled");
 			isTaskRunning = false;
 			if (mCallbacks != null) {
 				mCallbacks.onDataGeneratorTaskCancelled();
@@ -150,7 +145,6 @@ public class RetainedDataFragment extends Fragment {
 
 		@Override
 		protected void onPostExecute(ArrayList<Employee> newDataList) {
-			System.out.println("biraj postExecute");
 			isTaskRunning = false;
 			if (mCallbacks != null) {
 				mCallbacks.onNewDummyDataGenerated(newDataList);

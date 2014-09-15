@@ -71,7 +71,6 @@ public class UnlimitedListItemsRotationSupportAutoLoadMore extends
 	@Override
 	public void onDataGeneratorTaskExecuting() {
 		super.onDataGeneratorTaskExecuting();
-		System.out.println("biraj load more visible");
 		updateLoadMoreView();
 	}
 

@@ -95,7 +95,6 @@ public abstract class BaseCursorGridActivity extends Activity implements
 		if (null != data && data.getCount() > 0) {
 			findViewById(R.id.place_holder_text).setVisibility(View.GONE);
 			listView.setVisibility(View.VISIBLE);
-			System.out.println("biraj swapping " + data.getCount());
 			listviewAdapter.swapCursor(data);
 		}
 	}
