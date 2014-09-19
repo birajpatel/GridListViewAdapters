@@ -63,7 +63,7 @@ MyCursorGridAdapter gridAdapter = new MyCursorGridAdapter(getApplicationContext(
 listview.setAdapter(gridAdapter);
 
 // Adding data to adapter on callback from CursorLoader.
-``@Override
+    @Override
 	public void onLoadFinished(Loader<Cursor> arg0, Cursor data) {
 		gridAdapter.swapCursor(data);
 	}
