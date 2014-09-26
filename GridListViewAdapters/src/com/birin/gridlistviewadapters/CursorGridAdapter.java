@@ -226,7 +226,8 @@ public abstract class CursorGridAdapter<CVH> extends
 	public void validatePositionOrThrow(int position) {
 		if (position < 0 || position >= getAbsoluteCardsCount()) {
 			throw new IndexOutOfBoundsException("Position requested "
-					+ position + " Available Cursor size " + getCount());
+					+ position + " Available Cursor size "
+					+ getAbsoluteCardsCount());
 		}
 	}
 

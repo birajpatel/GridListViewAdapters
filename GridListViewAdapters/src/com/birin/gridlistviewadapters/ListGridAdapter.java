@@ -38,7 +38,8 @@ public abstract class ListGridAdapter<T, CVH> extends BaseGridAdapter<T, CVH> {
 	public void validatePositionOrThrow(int position) {
 		if (position < 0 || position >= getAbsoluteCardsCount()) {
 			throw new IndexOutOfBoundsException("Position requested "
-					+ position + " Available list size " + getCount());
+					+ position + " Available list size "
+					+ getAbsoluteCardsCount());
 		}
 	}
 
