@@ -52,7 +52,7 @@ Sample-App screenshots
 <tr>
 <td><img src='./Extras/Images/Screenshots/1.png' width='190' height='288' /></td>
 <td><img src='./Extras/Images/Screenshots/2.png' width='190' height='288' /></td>
-<td><img src='./Extras/Images/Screenshots/3.png' width='190' height='288' /></td>
+<td><a href="http://imgur.com/5BhDERl"><img src="http://i.imgur.com/5BhDERl.gif" width='190' height='288' /></a></td>
 </tr>
 <tr>
 <td align = 'center' >ListGridAdapter</td>
