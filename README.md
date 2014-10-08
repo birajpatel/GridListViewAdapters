@@ -1,5 +1,6 @@
 GridListViewAdapters
 ====================
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-GridListViewAdapters-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1035)
 
 This libarary enables you to implement GridView like card layout within ListView with added capabilites like Paginations, Addition of Header-Footer Views, also simplifies implemention for both List & Cursor data.
 
