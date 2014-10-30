@@ -7,6 +7,9 @@ This libarary enables you to implement GridView like card layout within ListView
 This library is designed on [ViewHolder] (http://developer.android.com/training/improving-layouts/smooth-scrolling.html#ViewHolder) design pattern, it provides an easier way of linking linear data to grid alligned Views. The GridListViewAdapters will do most of tedious work for you & all you have to do is create your small modular classes & link them together. 
 
 
+<a href="http://imgur.com/5BhDERl"><img src="http://i.imgur.com/5BhDERl.gif" width='275' height='428' /></a>
+<a href="http://imgur.com/JOCNAI8"><img src="http://i.imgur.com/JOCNAI8.gif" width='275' height='428' /></a>
+
 **Looking for ListView with multiple row-types support, check [EasyListViewAdapters](https://github.com/birajpatel/EasyListViewAdapters).**
 
 Features
@@ -46,21 +49,6 @@ Using CursorGridAdapter
 
 Check [Quick-Usage-Guide](/Extras/Documentations/CursorGridAdapterQuickUsageGuide.md)
 
-Sample-App screenshots
-====================
-
-<table align= 'center' border = "0">
-<tr>
-<td><img src='./Extras/Images/Screenshots/1.png' width='190' height='288' /></td>
-<td><img src='./Extras/Images/Screenshots/2.png' width='190' height='288' /></td>
-<td><a href="http://imgur.com/5BhDERl"><img src="http://i.imgur.com/5BhDERl.gif" width='190' height='288' /></a></td>
-</tr>
-<tr>
-<td align = 'center' >ListGridAdapter</td>
-<td align = 'center'>CursorGridAdapter</td>
-<td align = 'center'>Demo Screen</td>
-</tr>
-</table>
 
 How to understand Sample-App
 ====================
