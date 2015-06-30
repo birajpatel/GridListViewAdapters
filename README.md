@@ -26,6 +26,20 @@ Features
 * **Handles empty cards** as well during pagination & auto replaces empty cards when more data is added.
 * **Handling children viewclicks**, you can also register for Children(present inside your Cards) view click events. All these Views are registered with single OnClickListner so that this mechanism is very **memory efficient** when click event occurs users you gets clickedChildView, cardData,int eventId as callback params.
 
+Adding to your project using gradle
+============
+```groovy
+repositories {
+    maven {
+        url "https://dl.bintray.com/birajpatel/gridlistviewadapters/"
+    }
+}
+```
+```groovy
+compile 'com.birin:gridlistviewadapters:1.0.0'
+```
+
+
 Compatibility
 =========
 * **Library** : API 4+(DONUT)
