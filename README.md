@@ -69,7 +69,7 @@ How to understand Sample-App
 
 <img src='./Extras/Documentations/steps.png' width='300' height='432' />
 
-* **1** For basic step by step explaination read [SimplestListGridAdapterUsageDemoActivity.java](/GridListViewAdaptersDemo/src/com/birin/listgridadapter/demo1/SimplestListGridAdapterUsageDemoActivity.java)
+* **1** For basic step by step explaination read [SimplestListGridAdapterUsageDemoActivity.java](https://github.com/birajpatel/GridListViewAdapters/blob/master/Eclipse/GridListViewAdaptersDemo/src/com/birin/listgridadapter/demo1/SimplestListGridAdapterUsageDemoActivity.java)
 * **2** Read other ListGridAdapter's Demo.
 * **3** Read other CursorGridAdapter's Demo.
 
